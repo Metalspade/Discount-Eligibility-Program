@@ -1,0 +1,40 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css stylesheet Link -->
+    <link rel="stylesheet" href="/css/style.css">
+        <!-- Web Tab Title -->
+    <title>Discount Eligibility Program</title>
+  </head>
+  <body>
+    <div class="header">
+    <h1>Discount Eligibility Program</h1>
+  </div>
+  
+    <div class="container">
+    <!-- Form -->
+      <form id="form">
+        <div class="age_block">
+          <label for="age">Enter your age:</label>
+          <input type="number" id="age" name="age">
+        </div>
+        
+        <div class="member_block">
+          <label for="isMember">Are you a member?</label>
+          <input type="checkbox" id="isMember" name="isMember">
+              </div>
+              <!-- Button to check for Eligibility -->
+                <div class="button">
+        <button type="submit" onclick="checkEligibility()">Check Eligibility</button>
+        </div>
+        <div class="output_box" id="output"></div>
+      </form>
+    
+    </div>
+    <!-- Javascript Link -->
+    <script src="/js/index.js"></script>
+  </body>
+  </html>
